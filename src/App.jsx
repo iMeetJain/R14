@@ -2,7 +2,12 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+    App
+    <p>    
+      {import.meta.env.VITE_API_KEY}
+    </p>
+    </>
   )
 }
 
